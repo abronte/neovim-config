@@ -3,6 +3,7 @@ vim.g.loaded_netrwPlugin = 1
 
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
+vim.g.nvim_tree_respect_buf_cwd = 1
 
 require("nvim-tree").setup({
   renderer = {
@@ -15,5 +16,9 @@ require("nvim-tree").setup({
         modified = false
       }
     }
+  },
+  update_focused_file = {
+    enable = true,
+    update_cwd = true
   }
 })
