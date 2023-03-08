@@ -25,6 +25,7 @@ nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 * https://github.com/wbthomason/packer.nvim
 * https://github.com/folke/tokyonight.nvim
 * https://github.com/nvim-tree/nvim-tree.lua
+* https://github.com/ctrlpvim/ctrlp.vim
 
 
 ## Useful Keymappings
@@ -36,3 +37,4 @@ nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 * `<C-]>` - nvim tree cd
 * `<C-t>` - nvim tree open new tab
 * `-` - nvim tree up
+* `<C-p>` - ctrlp open
