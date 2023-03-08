@@ -9,5 +9,6 @@ return require('packer').startup(function(use)
     }
   }
   use 'ctrlpvim/ctrlp.vim'
+  use 'terrortylor/nvim-comment'
  end)
 

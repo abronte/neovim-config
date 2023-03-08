@@ -72,3 +72,5 @@ nmap n nzz
 nmap N Nzz
 
 map <leader>p :NvimTreeToggle<cr>
+
+noremap \\ :CommentToggle<CR>

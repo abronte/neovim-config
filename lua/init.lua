@@ -22,3 +22,6 @@ require("nvim-tree").setup({
     update_cwd = true
   }
 })
+
+require('nvim_comment').setup()
+
