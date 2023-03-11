@@ -24,4 +24,3 @@ require("nvim-tree").setup({
 })
 
 require('nvim_comment').setup()
-

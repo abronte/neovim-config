@@ -74,3 +74,8 @@ nmap N Nzz
 map <leader>p :NvimTreeToggle<cr>
 
 noremap \\ :CommentToggle<CR>
+
+noremap <leader>t :ToggleTerm<cr>
+noremap <leader><tab> :ToggleTerm direction=tab<cr>
+
+autocmd TermEnter term://*toggleterm#* tnoremap <leader><esc> <C-\><C-n><CR>

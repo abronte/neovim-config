@@ -27,6 +27,7 @@ nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 * https://github.com/nvim-tree/nvim-tree.lua
 * https://github.com/ctrlpvim/ctrlp.vim
 * https://github.com/terrortylor/nvim-comment
+* https://github.com/akinsho/toggleterm.nvim
 
 
 ## Useful Keymappings
@@ -40,3 +41,6 @@ nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 * `-` - nvim tree up
 * `<C-p>` - ctrlp open
 * `\\` - toggle comment
+* `, t` - open terminal horizontal split
+* `, <tab>` - open terminal in new tab
+* `, <esc>` - escape terminal mode
