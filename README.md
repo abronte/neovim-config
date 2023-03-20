@@ -37,7 +37,8 @@ nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 * `<C-l>` - move to right split
 * `, p` - nvim tree togger 
 * `<C-]>` - nvim tree cd
-* `<C-t>` - nvim tree open new tab
+* `<t>` - nvim tree open new tab
+* `<s>` - nvim tree open in vertical split
 * `-` - nvim tree up
 * `<C-p>` - ctrlp open
 * `\\` - toggle comment
