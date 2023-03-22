@@ -35,6 +35,10 @@ nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 * `<C-j>` - move to top split
 * `<C-k>` - move to bottom split
 * `<C-l>` - move to right split
+* `, h` - decrease split height
+* `, H` - increase split height
+* `, w` - decrease split width
+* `, W` - increase split width
 * `, p` - nvim tree togger 
 * `<C-]>` - nvim tree cd
 * `<t>` - nvim tree open new tab

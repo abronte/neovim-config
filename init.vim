@@ -79,3 +79,9 @@ noremap <leader>t :ToggleTerm<cr>
 noremap <leader><tab> :ToggleTerm direction=tab<cr>
 
 autocmd TermEnter term://*toggleterm#* tnoremap <leader><esc> <C-\><C-n><CR>
+
+nnoremap <leader>h :execute "resize " . float2nr(0.2 * winheight(0) + winheight(0))<CR>
+nnoremap <leader>H :execute "resize " . float2nr(winheight(0) - 0.2 * winheight(0))<CR>
+nnoremap <leader>W :execute "vertical resize " . float2nr(0.2 * winwidth(0) + winwidth(0))<CR>
+nnoremap <leader>w :execute "vertical resize " . float2nr(winwidth(0) - 0.2 * winwidth(0))<CR>
+
