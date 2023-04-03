@@ -35,7 +35,7 @@ set shiftwidth=2
 set tabstop=2
 
 " remove left and right scrollbars
-set guioptions-=r 
+set guioptions-=r
 set go-=L
 
 " no bell
@@ -65,7 +65,7 @@ noremap <D-5> 5gt
 noremap <D-6> 6gt
 
 " turn search highlight off
-nnoremap <leader><space> :noh<cr> 
+nnoremap <leader><space> :noh<cr>
 
 " Center screen when scrolling search results
 nmap n nzz
@@ -85,3 +85,7 @@ nnoremap <leader>H :execute "resize " . float2nr(winheight(0) - 0.2 * winheight(
 nnoremap <leader>W :execute "vertical resize " . float2nr(0.2 * winwidth(0) + winwidth(0))<CR>
 nnoremap <leader>w :execute "vertical resize " . float2nr(winwidth(0) - 0.2 * winwidth(0))<CR>
 
+augroup FormatAutogroup
+  autocmd!
+  autocmd BufWritePost * FormatWrite
+augroup END

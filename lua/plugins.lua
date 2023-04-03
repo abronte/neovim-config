@@ -11,5 +11,6 @@ return require('packer').startup(function(use)
   use 'ctrlpvim/ctrlp.vim'
   use 'terrortylor/nvim-comment'
   use {"akinsho/toggleterm.nvim", tag = '*', config = function()   require("toggleterm").setup() end}
+  use 'mhartington/formatter.nvim'
+  use { 'echasnovski/mini.completion', branch = 'stable' }
  end)
-
