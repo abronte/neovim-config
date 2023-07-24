@@ -12,7 +12,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 2. Clone repo
 
 ```
-mkidr -p ~/.config && git clone git@github.com:abronte/neovim-config.git ~/.config/nvim
+mkdir -p ~/.config && git clone git@github.com:abronte/neovim-config.git ~/.config/nvim
 ```
 
 3. Sync Plugins
